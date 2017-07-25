@@ -3,7 +3,7 @@
 <suite name="Suite" >
   <test name="Test1">
  <parameter name="browser" value = "FIREFOX"> </parameter> 
-<parameter name="Node" value =""> </parameter> 
+<parameter name="Node" value ="http://20.201.84.130:7788/wd/hub"> </parameter> 
    <classes>
       <class name="tests.TC1_Google_Searchname"/>
     </classes>
