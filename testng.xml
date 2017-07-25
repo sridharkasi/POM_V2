@@ -10,7 +10,7 @@
   </test> <!-- Test -->
   
   <test name="Test2">
- <parameter name="browser" value = "CHROME"> </parameter> 
+ <parameter name="browser" value = "FIREFOX"> </parameter> 
 <parameter name="Node" value =""> </parameter> 
    <classes>
       <class name="tests.TC1_Google_Searchname"/>
