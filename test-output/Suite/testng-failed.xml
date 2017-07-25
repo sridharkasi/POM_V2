@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="Test1(failed)" parallel="tests">
+    <parameter name="browser" value="FIREFOX"/>
+    <parameter name="Node" value="http://20.201.84.130:7777/wd/hub"/>
+    <classes>
+      <class name="tests.TC1_Google_Searchname">
+        <methods>
+          <include name="closeDriverObjects"/>
+          <include name="namesearch"/>
+          <include name="remotewebdriver"/>
+          <include name="remotewebdriver"/>
+          <include name="startTestCase"/>
+          <include name="startTestCase"/>
+          <include name="instantiateDriverObject"/>
+        </methods>
+      </class> <!-- tests.TC1_Google_Searchname -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test name="Test2(failed)" parallel="tests">
+    <parameter name="browser" value="FIREFOX"/>
+    <parameter name="Node" value="http://20.201.84.130:7777/wd/hub"/>
+    <classes>
+      <class name="tests.TC1_Google_Searchname">
+        <methods>
+          <include name="closeDriverObjects"/>
+          <include name="namesearch"/>
+          <include name="remotewebdriver"/>
+          <include name="remotewebdriver"/>
+          <include name="startTestCase"/>
+          <include name="startTestCase"/>
+          <include name="instantiateDriverObject"/>
+        </methods>
+      </class> <!-- tests.TC1_Google_Searchname -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
